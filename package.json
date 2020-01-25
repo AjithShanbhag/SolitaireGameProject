@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "description": "A game of solitaire",
-  "repository": "https://github.com/g0t4/angular-solitaire",
+  "repository": "https://github.com/AjithShanbhag/SolitaireGameProject",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
