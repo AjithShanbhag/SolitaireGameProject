@@ -1,11 +1,14 @@
 stage 'CI'
 node {
 
+    
+    stage 'Checkout Code'
     checkout scm
 
     //git branch: 'jenkins2-course', 
     //    url: 'https://github.com/g0t4/solitaire-systemjs-course'
 
+    stage 'Install NPN Dependencies;
     // pull dependencies from npm
     // on windows use: bat 'npm install'
     bat 'npm install'
@@ -28,7 +31,7 @@ node {
 }
 
 // demoing a second agent
-node('mac') {
+node('windows') {
     // on windows use: bat 'dir'
     bat 'dir'
 
